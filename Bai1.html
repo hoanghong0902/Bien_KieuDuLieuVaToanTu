@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let ly = prompt("Nhập điểm Vật Lý: ");
+    let hoa = prompt("Nhập điểm Hóa Học: ");
+    let sinh = prompt("Nhập điểm Sinh Học: ");
+    ly = parseInt(ly);
+    hoa = parseInt(hoa);
+    sinh = parseInt(sinh);
+    let sum = ly + hoa + sinh;
+    let dtb = sum / 3;
+    document.write("Điểm Trung Bình là: ", + dtb.toFixed(2));
+    document.write('</br>');
+    document.write("Điểm Tổng là: ", + sum);
+</script>
+</html>
